@@ -48,10 +48,7 @@ def generate_suggestions(forecast_result):
             action = "Điều chỉnh ngay lập tức chiến lược marketing.\nGiảm giá mạnh và thanh lý hàng tồn kho."
             detail = "Cân nhắc giảm giá 10–20% hoặc thanh lý hàng tồn kho.\nTổ chức chiến dịch quảng cáo mạnh mẽ hơn và tăng ngân sách truyền thông."
 
-        suggestions.append(f"**{month_label}** - Xu hướng: {trend}
-- Đề xuất: {action}
-- Gợi ý chi tiết: {detail}
-")
+        suggestions.append(f"**{month_label}** - Xu hướng: {trend}\n- Đề xuất: {action}\n- Gợi ý chi tiết: {detail}\n")
 
     return suggestions
 
