@@ -30,8 +30,7 @@ def generate_suggestions(forecast_result):
         elif 5 <= pct < 10:
             trend = "🟢 Tăng mạnh"
             action = "Tiếp tục duy trì chiến lược marketing hiện tại.\nXem xét mở rộng sản xuất và tăng cường cung cấp sản phẩm."
-            detail = "Tiếp tục duy trì các chiến lược marketing đang hoạt động hiệu quả.
-Khám phá các thị trường mới và đầu tư vào cải tiến sản phẩm."
+            detail = "Tiếp tục duy trì các chiến lược marketing đang hoạt động hiệu quả.\nKhám phá các thị trường mới và đầu tư vào cải tiến sản phẩm."
         elif 0 <= pct < 5:
             trend = "➖ Tăng nhẹ"
             action = "Duy trì chiến lược marketing hiện tại.\nTăng cường quảng bá sản phẩm và khuyến mãi."
