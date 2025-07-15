@@ -1,5 +1,5 @@
 # controller.py
-from models import model
+from models import forecast_model
 from views import forecast_view
 
 def run_forecast():
